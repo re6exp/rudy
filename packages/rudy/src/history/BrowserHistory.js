@@ -218,7 +218,7 @@ export default class BrowserHistory extends History {
       const url =
         typeof actOrUrl === 'string' ? actOrUrl : actOrUrl.location.url
       const ready = () => {
-        console.log('ready', url, locationToUrl(window.location))
+        // console.log('ready', url, locationToUrl(window.location))
         return url === locationToUrl(window.location)
       }
       return tryChange(ready, resolve, name, this) // TODO: is the this supposed to be there, its one extra param over

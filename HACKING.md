@@ -3,7 +3,7 @@
 ## Setup/installation
 
 ```shell
-git clone git@github.com:ScriptedAlchemy/redux-first-router.git
+git clone https://github.com/respond-framework/rudy.git
 yarn
 ```
 

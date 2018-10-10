@@ -23,13 +23,13 @@
 > `beforeLeave` route option (and customize its appearance via the
 > `displayConfirmLeave` option). See
 > [this issue comment](https://github.com/faceyspacey/redux-first-router/issues/27#issuecomment-327431413)
-> for more info. Do `yarn upgrade redux-first-router@next` to get it.
+> for more info.
 
 > **UPDATE (2017-09-06):** MUCH ANTICIPATED FEATURE: you can now do all sorts of
 > optional params in your paths, match multiple similar paths to the same type,
 > use regexes, and use params that capture multiple segments. See
 > [this issue comment](https://github.com/faceyspacey/redux-first-router/issues/83#issuecomment-327703226)
-> for more info. Do `yarn upgrade redux-first-router@next` to get it.
+> for more info.
 
 > **UPDATE (2017-09-09):** _4 new thiings:_ 1) route paths are now cached for
 > better performance (less cycles wasted on parsing). 2) you can now do
@@ -52,8 +52,7 @@
 > robust solution. Half-assing as we've done doesn't make sense for now.
 
 > **UPDATE (2018-08-19):** RUDY + RESPOND FRAMEWORK: See [HACKING](./HACKING.md)
-> for notes on how to get set up and contribute to redux-first-router 2.0, AKA
-> Rudy
+> for notes on how to get set up and contribute to Rudy
 
 # Rudy Router, the successor of Redux-First Router
 
@@ -93,10 +92,13 @@
 
 ![redux-first-router flow chart](https://raw.githubusercontent.com/faceyspacey/redux-first-router/master/docs/redux-first-router-flow-chart.png)
 
-The goal of **Redux-First Router** is to think of your app in _states_, not
-_routes_, not _components_, while keeping the address bar in sync. Everthing is
-state, not components. Connect your components and _just dispatch_ **_flux
-standard actions._**
+The goal of Rudy is to provide a rails-like ApplicationController interface for Redux driven JavaScript applications.Rudy combines view and data management into a comprehensible and manageable format. Unlike redux-first-router, Rudy is fully asynchronous! This means code-splitting, data fetching, and routing can be handled in one place, more importantly - per route
+
+
+                                                                                                                                                                                                         
+
+
+
 
 **Articles You Should Read:**
 

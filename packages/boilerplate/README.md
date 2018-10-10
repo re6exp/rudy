@@ -2,23 +2,18 @@
   <img alt="Edit Redux-First Router Demo" src="https://codesandbox.io/static/img/play-codesandbox.svg">
 </a>
 
-# Simple Universal Boilerplate of [Redux-First Router](https://github.com/faceyspacey/redux-first-router)
+# Simple Universal Boilerplate of [Rudy Router](https://github.com/respond-framework/rudy)
 
 ![redux-first-router-demo screenshot](./screenshot.png)
 
-> For a demo/boilerplate that goes even farther make sure to check out the
-> **["DEMO"](https://github.com/faceyspacey/redux-first-router-demo)**. A lot
-> more features and use-cases are covered there, but this _boilerplate_ is the
-> best place to start to learn the basics of RFR, especially if you're new to
-> any of these things: SSR, Code Splitting, Express, APIs, Webpack and Redux in
-> general.
 
 ## Installation
 
 ```
-git clone https://github.com/faceyspacey/redux-first-router-boilerplate
-cd redux-first-router-boilerplate
+git clone https://github.com/respond-framework/rudy.git
+cd packages/boilerplate
 yarn
+yarn build:monorepo
 yarn start
 ```
 
@@ -27,7 +22,7 @@ yarn start
 _client code:_
 
 - [**_src/configureStore.js_**](./src/configureStore.js)
-- [**_src/routesMap.js_**](./src/routesMap.js) - **_(the primary work of RFR)_**
+- [**_src/routesMap.js_**](./src/routesMap.js) - **_(Rudy's application controller)_**
 - [**_src/components/Switcher.js_**](./src/components/Switcher.js) - _(universal
   component concept)_
 - [**_src/components/Sidebar.js_**](./src/components/Sidebar.js) - _(look at the
